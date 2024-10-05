@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Custom QR Code Generator</title>
+
+<link rel="stylesheet" href="style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<header>
+
+<h1>Custom QR Code Generator</h1>
+
+<p>Paste a URL or enter text to create a QR code</p>
+
+</header>
+
+<div class="form">
+
+<input type="text" spellcheck="false" placeholder="Enter text or URL" id="qr- input">
+
+<label for="foreground-color">Foreground Color</label>
+
+
+
+
+<input type="color" id="foreground-color" value="#000000">
+
+<label for="background-color">Background Color</label>
+
+<input type="color" id="background-color" value="#ffffff">
+
+<label for="shape-select">Shape</label>
+
+<select id="shape-select">
+
+<option value="square">Square</option>
+
+<option value="dots">Dots</option>
+
+</select>
+
+<label for="logo-upload">Upload Logo</label>
+
+<input type="file" id="logo-upload" accept="image/*">
+
+<button id="generate-btn">Generate QR Code</button>
+
+</div>
+
+<div class="qr-code" id="qr-code"></div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.5.0/lib/qr-code- styling.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
