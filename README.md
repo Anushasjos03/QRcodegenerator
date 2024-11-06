@@ -5,7 +5,6 @@ A customizable QR Code Generator that allows you to generate QR codes with custo
 
 ## Table of Contents
 - [Features](#features)
-- [Demo](#demo)
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Usage](#usage)
