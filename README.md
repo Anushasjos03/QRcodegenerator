@@ -18,9 +18,6 @@ A customizable QR Code Generator that allows you to generate QR codes with custo
 - Option to upload a logo to embed in the QR code
 - Responsive design for mobile and desktop
 
-## Demo
-You can view a live demo [here](#) (insert link if hosted online).
-
 ## Technologies
 - **HTML, CSS, JavaScript** for the basic structure and styling
 - **qr-code-styling** library for customizable QR code generation
@@ -49,14 +46,9 @@ Choose the QR code shape (square or dots).
 Optionally, upload a logo image to embed in the QR code.
 Click the Generate QR Code button to create your customized QR code, which will appear below.
 
-.
-├── index.html           # Main HTML file
-├── style.css            # Stylesheet for layout and styling
-├── script.js            # JavaScript logic for QR code generation
-└── README.md            # Project documentation
-
 
 License
+<img width="502" alt="Screenshot 2024-11-06 at 3 53 25 PM" src="https://github.com/user-attachments/assets/36a4ccba-13d5-4bfc-9bcc-c2b4727e2b67">
 
 This project is open-source and available under the MIT License. See the LICENSE file for more details.
 
